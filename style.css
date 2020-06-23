@@ -4,9 +4,9 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
+    color: #ffffff;
     text-align: left;
-    background-color: #f3cfbb;
+    background-color: #000000;
     /* background: url(https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60) no-repeat fixed;
     background-size: cover; */
 }
@@ -15,6 +15,7 @@ body {
     overflow: hidden;
     padding: 20px 10px;
     margin-bottom: 5%;
+    position: static;
 }
 
 
@@ -22,7 +23,7 @@ body {
 
 .header a {
     float: left;
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 12px;
     text-decoration: none;
@@ -44,8 +45,8 @@ body {
 /* Change the background color on mouse-over */
 
 .header a:hover {
-    background-color: rgba(221, 221, 221, 0.507);
-    color: black;
+    background-color: rgba(221, 221, 221, 0.3);
+    color: rgb(192, 192, 192);
 }
 
 
