@@ -11,6 +11,18 @@ body {
     background-size: cover; */
 }
 
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover,
+a:checked,
+a:active {
+    color: rgb(0, 204, 255);
+    text-decoration: none;
+}
+
 .header {
     overflow: hidden;
     padding: 20px 10px;
@@ -127,7 +139,7 @@ body {
     font-weight: bold;
 }
 
-#aboutHeader h2 {
+.aboutHeader h2 {
     text-align: center;
     font-size: 3em;
     padding: 5%;
