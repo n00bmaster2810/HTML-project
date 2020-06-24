@@ -152,6 +152,14 @@ dd p {
     line-height: 2em;
 }
 
+.padding {
+    padding: 5%;
+}
+
+.skill-container {
+    padding: 5% 0%;
+}
+
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 
