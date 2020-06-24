@@ -17,29 +17,31 @@
 </head>
 
 <body>
-    <div class="header" id="home">
-        <a href="index.html" class="logo"><img src="https://image.flaticon.com/icons/svg/196/196754.svg" width="20%" height="50%" alt=""> Personal Portfolio</a>
-        <div class="header-right">
-            <a class="active" href="index.html">Home</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row" id="intro">
-            <div class="col-md-6">
-                <div class="my">
-                    <a href="images/satya.png"><img id="myImg" class="image" src="images/satya.png" alt="Snow" style="width:100%"></a>
-                    <div class="overlay">Satya Prakash Satyam</div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="myIntro">
-                    <p>I'm Satya Prakash Satyam<br>An enthusiatic programmer, learning android development and a newbie in web development.<br>This is my portfolio , I have included almost everything about me here.</p>
-                </div>
+    <header>
+        <div class="header" id="home">
+            <a href="index.html" class="logo"><img src="https://image.flaticon.com/icons/svg/196/196754.svg" width="20%" height="50%" alt="A Portfolio"> Personal Portfolio</a>
+            <div class="header-right">
+                <a class="active" href="index.html">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
             </div>
         </div>
-    </div>
+        <div class="container">
+            <div class="row" id="intro">
+                <div class="col-md-6">
+                    <div class="my">
+                        <a href="images/satya.png"><img id="myImg" class="image" src="images/satya.png" alt="My Picture" style="width:100%"></a>
+                        <div class="overlay">Satya Prakash Satyam</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="myIntro">
+                        <p>I'm Satya Prakash Satyam<br>An enthusiatic programmer, learning android development and a newbie in web development.<br>This is my portfolio , I have included almost everything about me here.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
     <div class="col-sm-12 aboutHeader" id="about">
         <h2>About me</h2>
@@ -124,13 +126,31 @@
             </div>
             </div>
             </div>
+
+            <div class="col-sm-12 aboutHeader" id="contact">
+                <h2>My Achievements</h2>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 p-5">
+                        <div>
+                            <ul class="list-group list-group-flush text-light h3 text-left">
+                                <li class="list-group-item p-5">I had qualified for Regional Mathematics Olympiad when in 2015.</li>
+                                <li class="list-group-item p-5">Qualified JEE-MAINS with a rank of 15806.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="col-sm-12 aboutHeader" id="contact">
                 <h2>Contact</h2>
             </div>
 
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 p-5">
+                    <div class="col-md-6 p-5">
                         <a href="https://www.google.com/maps/place/Prayagraj,+Uttar+Pradesh/@25.4021974,81.6614988,11z/data=!3m1!4b1!4m5!3m4!1s0x398534c9b20bd49f:0xa2237856ad4041a!8m2!3d25.4358011!4d81.846311" target="_blank">
                             <p class="display-4 m-5"><i class="fa fa-map-marker fa-fw text-white mr-5"></i>Prayagraj, India</p>
                         </a>
@@ -143,6 +163,15 @@
                             <p class="display-4 m-5"><i class="fa fa-envelope fa-fw text-white mr-5"> </i>satty9509@gmail.com</p>
                         </a>
                     </div>
+                    <div class="col-md-6 p-5">
+                        <a href="https://www.linkedin.com/in/satya-prakash-satyam-9a97a0183/" target="_blank">
+                            <p class="display-4 m-5"><i class="fa fa-linkedin-square fa-fw text-white mr-5"></i>Connect with me, here </p>
+                        </a>
+
+                        <a href="https://github.com/satty2810" target="_blank">
+                            <p class="display-4 m-5"><i class="fa fa-github-square fa-fw text-white mr-5"></i>My Projects </p>
+                        </a>
+                    </div>
                 </div>
                 <hr>
                 <div class="row">
@@ -152,10 +181,10 @@
                         <br>
                         <hr>
                         <form class="form-group" target="_blank">
-                            <p><input class="form-control p-5" type="text" placeholder="Name" required="" name="Name"></p>
-                            <p><input class="form-control p-5" type="text" placeholder="Email" required="" name="Email"></p>
-                            <p><input class="form-control p-5" type="text" placeholder="Subject" required="" name="Subject"></p>
-                            <p><input class="form-control p-5" type="text" placeholder="Message" required="" name="Message"></p>
+                            <p><label for="inputName" class="h3">Name</label><input class="form-control p-5" id="inputName" type="text" placeholder="Name" required name="Name"></p>
+                            <p><label for="inputEmail" class="h3">Email address</label><input class="form-control p-5" id="inputEmail" type="text" placeholder="Email" required name="Email"></p>
+                            <p><label for="inputNumber" class="h3">Number</label><input class="form-control p-5" id="inputNumber" type="number" placeholder="Number" required name="Number"></p>
+                            <p><label for="inputMessage" class="h3">Message</label><input class="form-control p-5" id="inputMessage" type="text" placeholder="Message" required name="Message"></p>
                             <p>
                                 <button class="btn-outline-light bg-dark text-light h4 p-5 " type="submit">
                                 <i class="fa fa-paper-plane"></i> SEND MESSAGE
