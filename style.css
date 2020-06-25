@@ -164,9 +164,10 @@ dd p {
     line-height: 2em;
 }
 
-.padding {
+
+/* .padding {
     padding: 5%;
-}
+} */
 
 .skill-container {
     padding: 5% 0%;
@@ -181,6 +182,17 @@ dd p {
 .h3,
 .display-4 {
     font-size: 300%;
+}
+
+.carousel-inner {
+    height: fit-content;
+    align-content: center;
+}
+
+.carousel-item img {
+    width: 100%;
+    margin: auto;
+    background-size: cover;
 }
 
 
