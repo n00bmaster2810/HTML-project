@@ -58,18 +58,6 @@ a:active {
     border-radius: 4px;
 }
 
-
-/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
-
-.header a.logo {
-    margin-left: 5%;
-    font-size: 25px;
-    font-weight: bold;
-}
-
-
-/* Change the background color on mouse-over */
-
 .header a:hover {
     background-color: rgba(221, 221, 221, 0.3);
     color: rgb(192, 192, 192);
@@ -81,14 +69,6 @@ a:active {
 .header a:active {
     background-color: dodgerblue;
     color: white;
-}
-
-
-/* Float the link section to the right */
-
-.header-right {
-    float: right;
-    margin-top: 2%;
 }
 
 #intro {
@@ -186,11 +166,6 @@ dd p {
 .list-group-item {
     background-color: #000000;
     border: none;
-}
-
-.h3,
-.display-4 {
-    font-size: 300%;
 }
 
 .carousel-inner {
