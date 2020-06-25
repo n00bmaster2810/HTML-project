@@ -61,6 +61,7 @@ a:active {
 .header a:hover {
     background-color: rgba(221, 221, 221, 0.3);
     color: rgb(192, 192, 192);
+    text-decoration: none;
 }
 
 
