@@ -14,13 +14,6 @@ a {
   text-decoration: none;
 }
 
-a:hover,
-a:checked,
-a:active {
-  color: rgb(0, 204, 255);
-  text-decoration: none;
-}
-
 .header {
   overflow: hidden;
   padding: 20px 10px;
@@ -39,17 +32,9 @@ a:active {
   border-radius: 4px;
 }
 
-.header a:hover {
-  background-color: rgba(221, 221, 221, 0.3);
-  color: rgb(192, 192, 192);
+a:hover {
+  color: aqua;
   text-decoration: none;
-}
-
-/* Style the active/current link*/
-
-.header a:active {
-  background-color: dodgerblue;
-  color: white;
 }
 
 #intro {
@@ -101,14 +86,13 @@ a:active {
 }
 
 .myIntro h4 {
-  font-family: "Quintessential", cursive;
+  font-family: serif;
   text-align: center;
   margin: 5%;
-  text-transform: uppercase;
   font-weight: bold;
 }
 
-.aboutHeader h3 {
+.aboutHeader h4 {
   text-align: center;
   padding: 2%;
   text-shadow: 1px 1px #ffffff;
@@ -129,9 +113,9 @@ dd p {
   line-height: 2em;
 }
 
-.skill-container {
+/*.skill-container {
   padding: 5% 0%;
-}
+}*/
 
 .list-group,
 .list-group-item {
