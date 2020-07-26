@@ -27,13 +27,24 @@ a {
   text-align: center;
   text-decoration: none;
   line-height: 25px;
-  border-radius: 4px;
+  border: #f1f1f1 solid 2px;
+  border-radius: 35px;
+}
+
+.navbar-nav a {
+  border: #0ab2f5 solid 2px;
+  border-radius: 35px;
+}
+
+.navbar-brand img {
+  border-radius: 35px;
 }
 
 a:hover,
 a:active {
   color: aqua;
   text-decoration: none;
+  border: none;
   box-shadow: aliceblue 1px 1px 1px 1px;
 }
 
